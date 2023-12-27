@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Car rent</title>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Dancing+Script&family=Hedvig+Letters+Serif:opsz@12..24&family=Montserrat&family=Poppins&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="../CSS/all.min.css">
+    <link rel="stylesheet" href="../CSS/bootstrap.min.css">
+    <link rel="stylesheet" href="../signin/style.css">
+</head>
+
+<body>
+    <div class="backgroundimage d-flex justify-content-center align-items-center">
+        <div class="container" id="signin">
+            <div class="background p-4 rounded-3">
+                <h2>Sign in to car rent</h2>
+                <p>Enter your details below</p>
+                <input placeholder="Enter your email" type="text" class="form-control mb-3" id="Siteemail">
+                <input placeholder="Enter your password" type="password" class="form-control mb-3" id="Sitepassword">
+                <p id="inputsreq" class="text-center text-danger d-none">All inputs are required</p>
+                <p id="incemailorpass" class="text-center text-danger d-none">incorrect Email or Password</p>
+                <p id="incemail" class="text-center d-none">incorrect Email</p>
+                <button id="login" class="btn btn-outline-primary w-100">Login</button>
+                <p class="text-white text-center mt-1">Don't have an account?<span><a id="signuplink"
+                            href="../signup/signup.html">Sign up</a></span></p>
+            </div>
+        </div>
+    </div>
+    <script src="../JS/bootstrap.bundle.min.js"></script>
+    <script src="./script.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,13 @@
+.backgroundimage{
+    background-image: url("../6b786c17b6193a89f55048dd52f46cad.jpg");
+    background-position: center center;
+    background-size: cover;
+    height: 100vh;
+}
+.background{
+    background-color: rgba(0, 0, 0, 0.4);
+}
+h1{
+    font-family: 'Dancing Script', cursive;
+    color: #09c;
+}

@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="../CSS/all.min.css">
+    <link rel="stylesheet" href="../CSS/bootstrap.min.css">
+    <link rel="stylesheet" href="./styleofsignup.css">
+</head>
+
+<body>
+    <div class="backgroundimage d-flex justify-content-center align-items-center">
+        <div class="container" id="signup">
+                <div class="background p-4  w-100 rounded-3">
+                        <h2>Sign up to car rent</h2>
+                        <p>Enter your details below</p>
+                        <input placeholder="Enter your name" type="text" class="form-control mb-3" id="Sitename">
+                        <input placeholder="Enter your email" type="text" class="form-control mb-3" id="Siteemail">
+                        <input placeholder="Enter your password" type="password" class="form-control mb-3"
+                            id="Sitepassword">
+                        <p id="inputsreq" class="text-center text-danger d-none">All inputs are required</p>
+                        <p id="emailexist" class="text-center text-danger d-none">Email already exist</p>
+                        <p id="Success" class="text-center text-success d-none">Success</p>
+                        <button id="signupbutton" class="btn btn-outline-primary w-100">Signup</button>
+                        <p class="text-white text-center mt-1">You have an account?<span><a id="signinlink"
+                                    href="../signin/index.html">Sign in</a></span></p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="../JS/bootstrap.bundle.min.js"></script>
+    <script src="./scriptofsignup.js"></script>
+</body>
+
+</html>
